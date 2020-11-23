@@ -2073,6 +2073,13 @@ fieldset:disabled a.btn {
   background: rgb(1,33,5);
   background: linear-gradient(90deg, rgba(1,33,5,1) 0%, rgba(9,121,17,1) 58%, rgba(28,168,58,1) 100%); ;
   border-color: green; }
+
+  .btn-custom {
+    color: #fff;
+    background: rgb(1,33,5);
+    background: #69bd00 !important;
+    border-color: green; }
+
   .btn-primary:hover {
     color: #fff;
     background-color: #0069d9;
