@@ -7,8 +7,8 @@
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
     <link rel="stylesheet" href="css/ionicons.min.css">    
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
@@ -23,6 +23,93 @@
 		width: 100%;
 		height: 350px;
 	}
+
+
+
+	.brand-logo-container {
+   width: 143px;
+    height: 92px;
+    background: #fff;
+    margin: 0 auto;
+  padding-top:35%;
+}
+
+
+.brands-slider-col{
+	height: 250px;
+    width: 100%;
+    float: none
+}
+#brand-discount-slider {
+position: relative;
+    overflow: hidden;
+    width: 100% !important;
+    height: 200px !important;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 0px;
+}
+#brand-discount-slider ul {
+	position: relative;
+	margin: 0 !important;
+padding: 0 60px !important;
+    height: 100% !important;
+	list-style: none;
+  display: flex;
+  width:100% !important;
+}
+#brand-discount-slider ul li {
+position: relative;
+    display: block;
+    float: left;
+    margin: 20px;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#brand-discount-slider ul li img {
+width: 100%;
+}
+.brand-arrow-prev {
+	width: 50px;
+    height: 81%;
+    background: green;
+    text-align: center;
+    line-height: 177px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 25;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.brand-arrow-next {
+	  width: 50px;
+   height: 81%;
+    background:green;
+    text-align: center;
+    line-height: 177px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: 25;
+    cursor: pointer;
+   margin: 20px 0px;
+}
+
+.brand-arrow-next:hover, .brand-arrow-prev:hover {
+  color:#d58e35;
+}
+
+
+
+
+
+
+
 	</style>
 
   </head>
@@ -667,6 +754,54 @@
 		  </div>
 	  </div>
 
+	  <div class="container text-center">
+		<div class="brands-slider-col my-5">
+			<h3>Our Brands</h3>
+			<div id="brand-discount-slider">
+				<div class="brand-arrow-next">
+					&#10095;
+				</div>
+				<div class="brand-arrow-prev">
+					&#10094;
+				</div>
+				<ul>
+					<li>
+		<div class="brand-logo-container">
+						<img src="https://nkwebtechnology.com/wp-content/uploads/2020/07/NKWT-logo-footer-1-300x125.png">
+		</div>
+					</li>
+					<li>
+			   <div class="brand-logo-container">
+						<img src="https://shebawebtech.com/wp-content/uploads/2020/05/sheba.png">
+				 </div>
+					</li>
+					<li>
+			   <div class="brand-logo-container">
+						<img src="http://tazabazar.com/image/catalog/tbz%20logo_2.png">
+				 </div>
+					</li>
+	  <li>
+			   <div class="brand-logo-container">
+						<img src="img/WTL-logo-1.png">
+				 </div>
+					</li>
+	  <li>
+			   <div class="brand-logo-container">
+						<img src="https://shebawebtech.com/wp-content/uploads/2020/05/sheba.png">
+				 </div>
+					</li>
+	  <li>
+			   <div class="brand-logo-container">
+						<img src="https://wtbdl.com/wp-content/uploads/2020/09/WTBDL-Logo-1536x590.png">
+				 </div>
+					</li>
+					</li>
+				</ul>
+			</div>
+		</div>
+	  </div>
+	  
+
 
 	  <footer class="ftco-footer bg-light ftco-section" style="background-image: url('img/grass.png'); background-attachment: fixed; background-repeat: no-repeat;
 	  background-size: 100% 120px; background-position: bottom; border-top: 1.5px solid green;">
@@ -698,7 +833,7 @@
 				  <li><a href="policy.html" class="py-2 d-block">Privacy Policy</a></li>
 				  <li><a href="terms.html" class="py-2 d-block">Terms & Conditions</a></li>
 				  <li><a href="advertis.html" class="py-2 d-block">Advertisement</a></li>
-				  <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+				  <li><a href="contact.html" class="py-2 d-block">Contact Us</a></li>
 				</ul>
 			  </div>
 			</div>
@@ -710,8 +845,8 @@
 					  <!-- <li><a href="#" class="py-2 d-block">Call for (+880) 1824 570690</a></li> -->
 					  <li><a href="#" class="py-2 d-block">Help Center</a></li>
 					  <li><a href="" class="py-2 d-block">Segments</a></li>
-					  <li><a href="" class="py-2 d-block">Article</a></li>
-					  <li><a href="" class="py-2 d-block">FAQs</a></li>
+					  <li><a href="" class="py-2 d-block">Career</a></li>
+					  <li><a href="faq.html" class="py-2 d-block">FAQs</a></li>
 					  <li><a href="#" class="py-2 d-block">Login | Create Account</a></li>
 					</ul>
 				  </div>
@@ -762,6 +897,53 @@
 	$(function () {
 		$('#main_navbar').bootnavbar();
 	})
+
+	$(document).ready(function (brandSlider) {
+
+				var slideCount = $('#brand-discount-slider ul li').length;
+				var slideWidth = $('#brand-discount-slider ul li').width();
+				var slideHeight = $('#brand-discount-slider ul li').height();
+				var sliderUlWidth = slideCount * slideWidth;
+
+				$('#brand-discount-slider').css({ width: slideWidth, height: slideHeight });
+
+				$('#brand-discount-slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+
+				$('#brand-discount-slider ul li:last-child').prependTo('#brand-discount-slider ul');
+
+
+				function moveLeft() {
+					$('#brand-discount-slider ul').animate({
+						left: + slideWidth
+					}, 200, function () {
+						$('#brand-discount-slider ul li:last-child').prependTo('#brand-discount-slider ul');
+						$('#brand-discount-slider ul').css('left', '');
+					});
+				};
+
+				function moveRight() {
+					$('#brand-discount-slider ul').animate({
+						left: - slideWidth
+					}, 200, function () {
+						$('#brand-discount-slider ul li:first-child').appendTo('#brand-discount-slider ul');
+						$('#brand-discount-slider ul').css('left', '');
+					});
+				};
+
+
+				$('.brand-arrow-prev').click(function () {
+					moveLeft();
+				});
+
+				$('.brand-arrow-next').click(function () {
+					moveRight();
+				});
+
+
+				setTimeout(moveLeft(), 1000); /* works only on load for the first slider...research later*/
+				});
+
+
 </script>
 
 
