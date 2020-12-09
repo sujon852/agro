@@ -8153,7 +8153,7 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
         color: #fff;
-        background: #ffa45c; } }
+        background: green; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: white;
     font-weight: bold;
@@ -8188,7 +8188,7 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         color: #fff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-      border-color: #ffa45c; }
+      border-color: green; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
@@ -8245,7 +8245,7 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .6;
     width: 50%;
-    background: #ffa45c; }
+    background: green; }
   .hero-wrap .slider-text {
     color: #fff;
     position: relative; }
@@ -8575,7 +8575,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .owl-nav .owl-prev:hover span:before, .owl-carousel.home-slider .owl-nav .owl-prev:focus span:before {
             font-size: 20px;
             margin-top: 7px;
-            color: #ffa45c; }
+            color: green; }
       .owl-carousel.home-slider .owl-nav .owl-next {
         top: 0 !important;
         right: 0 !important; }
@@ -8588,7 +8588,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .owl-nav .owl-next:hover span:before, .owl-carousel.home-slider .owl-nav .owl-next:focus span:before {
             font-size: 24px;
             margin-top: 7px;
-            color: #ffa45c; }
+            color: green; }
     .owl-carousel.home-slider .owl-dots {
       position: absolute;
       left: 0;
@@ -8837,7 +8837,7 @@ h1, h2, h3, h4, h5,
   height: 40px !important;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  color: #ffa45c;
+  color: green;
   padding: 10px 20px;
   background: transparent !important;
   -webkit-border-radius: 0;
@@ -8892,7 +8892,7 @@ h1, h2, h3, h4, h5,
       letter-spacing: 2px; }
 
 .ftco-cart button i {
-  color: #ffa45c; }
+  color: green; }
 
 .ftco-cart .quantity-left-minus {
   background: transparent;
@@ -8962,8 +8962,8 @@ h1, h2, h3, h4, h5,
       padding: 5px 10px;
       color: #000000; }
       .table tbody tr td.product-remove a:hover {
-        border: 1px solid #ffa45c;
-        background: #ffa45c; }
+        border: 1px solid green;
+        background: green; }
         .table tbody tr td.product-remove a:hover span {
           color: #fff; }
     .table tbody tr td.quantity {
@@ -9065,7 +9065,7 @@ h1, h2, h3, h4, h5,
     /* Firefox 18- */
     color: rgba(0, 0, 0, 0.4); }
   .billing-form .form-control:focus, .billing-form .form-control:active {
-    border-color: #ffa45c !important; }
+    border-color: green !important; }
 
 .billing-form textarea.form-control {
   height: inherit !important; }
@@ -9504,7 +9504,7 @@ textarea.form-control {
       -ms-border-radius: 50%;
       border-radius: 50%; }
       .testimony-wrap .user-img .quote i {
-        color: #ffa45c; }
+        color: green; }
   .testimony-wrap .name {
     font-weight: 400;
     font-size: 18px;
@@ -9587,7 +9587,7 @@ textarea.form-control {
     display: block;
     font-size: 72px;
     font-weight: bold;
-    color: #ffa45c; }
+    color: green; }
   .ftco-counter .ftco-label {
     font-size: 12px;
     text-transform: uppercase;
@@ -9747,7 +9747,7 @@ textarea.form-control {
     .block-17 form .search-submit:hover {
       background: #ffa45c !important;
       color: #fff !important;
-      border: 1px solid #ffa45c !important; }
+      border: 1px solid green !important; }
 
 .block-27 ul {
   padding: 0;
@@ -9800,7 +9800,7 @@ textarea.form-control {
     .block-21 .text .heading-1 a {
       color: #000000; }
       .block-21 .text .heading-1 a:hover, .block-21 .text .heading-1 a:active, .block-21 .text .heading-1 a:focus {
-        color: #ffa45c;
+        color: green;
         text-decoration: none;}
   .block-21 .text .meta > div {
     display: inline-block;
