@@ -9265,7 +9265,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 14px;
-  padding: 7em 0;
+  padding: 3em 0 1em 0;
   color: white; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -9290,7 +9290,8 @@ textarea.form-control {
       .ftco-footer .ftco-footer-widget ul li a:hover {
         color: green;
         margin-left: 5px;
-        font-weight: bold; }
+        font-weight: bold;
+      text-decoration: none; }
   .ftco-footer .ftco-footer-widget .btn-primary {
     border: 2px solid #fff !important; }
     .ftco-footer .ftco-footer-widget .btn-primary:hover {
